@@ -1,5 +1,5 @@
 [project]
-name = "python-t03-my"
+name = "tictactoe"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -12,8 +12,7 @@ dependencies = [
 ]
 
 [project.scripts]
-python-t03-my = "python_t03_my:main"
-flask-app = "python_t03_my.app:run_app"
+flask-app = "tictactoe.app:run_app"
 
 [build-system]
 requires = ["uv_build>=0.13.5,<0.14.0"]
